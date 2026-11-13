@@ -4,7 +4,6 @@ Measurement-driven analysis of the Cinvestav 3.5 GHz indoor path-loss campaign
 across three buildings (Communications, Library, SSE) and two antenna
 configurations, supporting the two results documents in this project.
 
-Everything is ordinary least squares and resampling on four engineered features.
 
 ## Layout
 
@@ -20,7 +19,7 @@ wip/               code that does not yet run against this repo
 `wip/graphs.py` instead expects a `results/` directory; reconcile that when it
 comes back onto the path.
 
-## First run in a fresh checkout
+## First run
 
 `data/` ships empty. Put the six raw CSVs in it before running anything — see
 `data/README.md` for the filenames and where they come from.
